@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activities.RegistroPagosActivity"
+        android:background="@color/backgroundColor"
+        android:orientation="vertical">
+
+    <TextView
+            android:text="Explore sus pago hechos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.086"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrincipal"
+            app:layout_constraintTop_toBottomOf="@+id/fragmentContainerView"
+            android:layout_marginTop="32dp"/>
+
+    <ScrollView
+            android:layout_width="400dp"
+            android:layout_height="593dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintVertical_bias="0.287"
+            android:id="@+id/scrollView2">
+
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/registroTableLayout">
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/filaTableRow"
+                    >
+
+                <TextView
+                        android:text="Número"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/idPago"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:background="@color/colorPrincipal"
+                        android:textColor="@color/white"/>
+
+                <TextView
+                        android:text="Fecha"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/fechaPago"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:background="@color/colorPrincipal"
+                        android:textColor="@color/white"/>
+
+                <TextView
+                        android:text="Sucursal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sucursalPago"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:background="@color/colorPrincipal"
+                        android:textColor="@color/white"/>
+
+                <TextView
+                        android:text="Litros"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/litrosPago"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:background="@color/colorPrincipal"
+                        android:textColor="@color/white"/>
+
+                <TextView
+                        android:text="Precio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/precioPago"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:background="@color/colorPrincipal"
+                        android:textColor="@color/white"/>
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+    <androidx.fragment.app.FragmentContainerView
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:name="com.example.aguaviva.Fragments.ToolbarFragment"
+            android:id="@+id/fragmentContainerView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

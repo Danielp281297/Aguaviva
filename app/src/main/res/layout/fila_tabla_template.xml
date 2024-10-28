@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/filaTableRow"
+        >
+
+    <TextView
+            android:text="idPago"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/numero"
+            android:layout_weight="1"
+            android:textAlignment="center"/>
+
+    <TextView
+            android:text="idFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fechaPago"
+            android:layout_weight="1"
+            android:textAlignment="center"/>
+
+    <TextView
+            android:text="idSucursal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sucursalPago"
+            android:layout_weight="1"
+            android:textAlignment="center"/>
+
+    <TextView
+            android:text="idLitros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/litrosPago"
+            android:layout_weight="1"
+            android:textAlignment="center"/>
+
+    <TextView
+            android:text="precioPago"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/precioPago"
+            android:layout_weight="1"
+            android:textAlignment="center"/>
+
+</TableRow>

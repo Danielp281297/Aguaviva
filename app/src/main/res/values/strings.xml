@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Aguaviva</string>
+    <string name="aviso_importante">
+        Cobramos la tasa del BCV.
+
+        Si ingresa el comprobante con un pago diferente al expuesto, no procederá el mismo de nuestros sistemas, y Aguaviva C.A. no se hace cargo por devolución de ningún motivo o bajo ninguna circunstancia.
+
+        De igual forma, Aguaviva C.A. no se hace responsable por la falta de agua en nuestras instalaciones al momento de que el usuario requiera realizar la recarga en nuestras sucursales, ya que nuestros servicios dependen exclusivamente de Hidrocapital C.A.
+
+        Cuando se genere el pago, podrá solicitar la recarga si y sólo si se hace en el establecimiento indicado al hacer el pago. Si lo hace en otro establecimiento, LA RECARGA NO VA A PROCEDER.
+
+        Además, para el servicio de recarga, es obligatorio que el cliente tenga sus envases para hacer la recarga, en cuyo caso, no se procederá al suministro, ya que Aguaviva no suministramos ningún tipo de envase; y de no comprobarse los datos de pago enviados, la compra tampoco va a proceder.
+
+        Al pulsar PAGAR HOY, estará de acuerdo con lo anterior expuesto sin condiciones.
+
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
