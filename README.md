@@ -17,8 +17,9 @@ Abrir el proyecto en Android Studio o el Intellij con los plugins indicados
 Correr el proyecto
 
 # Demo
-![Screencast-from-2024-10-27-23-26-47](https://github.com/user-attachments/assets/92315119-f7ed-4293-9449-1448550fd841)
 
+
+![Screencast-from-2024-10-27-23-26-47](https://github.com/user-attachments/assets/53977245-8f82-40b1-bfc3-e8e53fb93e4c)
 
 # Tecnologías
 Este ha sido un proyecto creado en:
