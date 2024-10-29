@@ -90,11 +90,11 @@ class Consulta {
                     '10.4861624', '-66.8727462'),
                     (NULL, 
                     'Sabana Grande',
-                    'Diagonal a Centro Residencial Solano, entre Av. Negrin y Av. Fransisco Solano Lopez',
+                    'Diagonal a Centro Residencial Solano, entre Av. Negrin y Av. Fransisco Solano López',
                     '10.494827', '-66.876067'),
                     (NULL, 
                     'Caricuao',
-                    'Frente a la estacion de metro Zoológico',
+                    'Frente a la estación de metro Zoológico',
                     '10.433043', '-66.972023'),
                     
                     (NULL, 
